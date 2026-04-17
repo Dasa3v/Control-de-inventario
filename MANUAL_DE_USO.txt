@@ -1,0 +1,70 @@
+MANUAL DE USO - APP CONTROL EPP
+
+1. Al abrir la app
+- Veras el dashboard principal.
+- Arriba aparecen tarjetas con entradas, salidas, unidades disponibles y alertas de stock.
+
+2. Registrar una entrada o salida
+- Ve a la seccion "Registrar movimiento".
+- Elige si es entrada o salida.
+- Selecciona el EPP.
+- Escribe la cantidad.
+- Elige quien entrega.
+- Elige quien recibe.
+- Opcional: escribe una observacion.
+- Pulsa "Guardar movimiento".
+
+3. Revisar inventario
+- Ve a la tabla "Inventario actual".
+- Encontraras:
+  codigo del EPP
+  nombre del EPP
+  cantidad
+  stock minimo
+  estado
+- Colores del estado:
+  verde = disponible
+  amarillo = bajo en stock
+  rojo = agotado
+
+4. Descargar historial
+- Ve a la seccion "Historial descargable".
+- Pulsa "Descargar Excel".
+- Se descargara un archivo con fecha, hora, EPP, cantidad, quien entrego y quien recibio.
+
+5. Entrar a la zona administrativa
+- Busca la seccion "Seccion administrativa".
+- Escribe:
+  usuario admin
+  contraseña 1234
+- Pulsa "Ingresar a administracion".
+- Luego pulsa "Mostrar panel administrativo".
+
+6. Gestionar personal
+- En "Gestion de personal" puedes agregar o editar:
+  nombre
+  cedula
+  tipo
+  cargo
+- Boton verde: agregar o guardar.
+- Boton amarillo: editar.
+- Boton rojo: borrar.
+
+7. Gestionar EPP
+- En "Gestion de EPP" puedes agregar o editar:
+  codigo
+  nombre
+  cantidad
+  stock minimo
+- Boton verde: agregar o guardar.
+- Boton amarillo: editar.
+- Boton rojo: borrar.
+
+8. Reglas de uso incorporadas
+- No puedes sacar mas cantidad de la que existe.
+- No puedes eliminar personas o EPP que ya esten usados en el historial.
+- El dashboard principal sigue visible sin login.
+
+9. Recomendacion
+- Primero prueba en modo local.
+- Despues conecta Supabase y despliega en Vercel.
